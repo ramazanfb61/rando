@@ -1,9 +1,8 @@
 <template>
   <div>
-    <h1>Hello World ramazanfb61</h1>
-    <p>deneme => {{ api }}</p>
-    <NuxtLink to="/admin">Go to admin</NuxtLink>
-    <button class="m-10 px-3 py-2 bg-button text-font focus:outline rounded-md">Tıkla</button>
+    <h2>Admin => '/admin'</h2>
+    <NuxtLink to="/">Go To Root</NuxtLink>
+    <p>surname => {{ api }}</p>
   </div>
 </template>
 
@@ -28,16 +27,18 @@ export default {
 
       let { data, error } = await supabase
         .from('person')
-        .select('name')
+        .select('surname')
 
       console.log(data)
       console.log("data", data[0].name)
 
       data.forEach(element => {
-        this.api.push(element.name)
+        this.api.push(element.surname)
       });
+      console.log(this.api)
     },
 
   }
 }
+
 </script>
