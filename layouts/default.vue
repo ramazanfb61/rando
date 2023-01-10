@@ -7,6 +7,9 @@
         <Nuxt />
       </div>
     </main>
+    <footer class="py-5 text-center relative top-72 md:top-80">
+      2023 Copyrights are preserved
+    </footer>
   </div>
 </template>
 

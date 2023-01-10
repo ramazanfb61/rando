@@ -10,10 +10,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor:{
-        "header" : "#1D2D50",
+        "header" : "#2C394B",
         "main" : "#EEEEEE",
         "button" : "#1E5F74",
-        
+        "dark" : "#2C3639"
       },
       textColor:{
         "font" : "#E7F6F2",
