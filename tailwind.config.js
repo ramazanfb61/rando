@@ -11,12 +11,16 @@ module.exports = {
     extend: {
       backgroundColor:{
         "header" : "#1D2D50",
-        "main" : "#F8F4EA",
+        "main" : "#EEEEEE",
         "button" : "#1E5F74",
         
       },
       textColor:{
         "font" : "#E7F6F2",
+        "button" : "#1E5F74",
+      },
+      borderColor:{
+        "button" : "#1E5F74",
       }
     },
   },
