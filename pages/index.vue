@@ -87,7 +87,7 @@
 </template>
 
 <script setup>
-import { fetchData } from "../db/index"
+import { fetchData } from "../db/db_index"
 import { ref, onBeforeMount } from "vue"
 
 

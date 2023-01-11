@@ -38,7 +38,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-db/
+db_index.js
 
 # TypeScript v1 declaration files
 typings/
